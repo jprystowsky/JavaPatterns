@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.factory;
+package io.mapping.javapatterns.factorymethod;
 
 /**
  * A type of {@link Developer} specializing in SQL.

@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.factory;
+package io.mapping.javapatterns.factorymethod;
 
 /**
  * An abstract class to wrap all specific, concrete instances of {@link Developer} that we may need.
