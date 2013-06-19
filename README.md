@@ -8,7 +8,7 @@ It presently contains implementations of the following patterns:
 Creational
 ----------
 
-=== [Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+### [Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
 
 The interface `Developer` defines a generic type of developer object, which is then implemented by the concrete
 `CSharpDeveloper` and `JavaDeveloper` classes.
@@ -21,7 +21,7 @@ The `DeveloperFactoryTest` class tests that both `JavaDeveloperFactory` and `CSh
 `DeveloperFactory` objects, and that the `newDeveloper()` method, declared in the `DeveloperFactory` interface,
 returns valid `Developer`s.
 
-=== [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
+### [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
 
 The interface `Developer` defines a generic type of developer object, which is then implemented by the concrete
 `ConcreteDeveloper` class.
@@ -39,8 +39,7 @@ and ensuring that the resulting object is not `null.`
 Structural
 ----------
 
-[Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
---------------------------------------------------------
+### [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
 
 The `CoffeeCup` object contains a `drink()` method which returns a `Coffee` object.
 
