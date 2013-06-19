@@ -17,3 +17,6 @@ used by the factory.
 The `DeveloperFactory,` with a private constructor to prevent instantiation, contains two methods to return instances
 of `Developer`s, `newJavaDeveloper()` and `newSQLDeveloper().` These methods return instances of the above two internal
 classes, respectively, but do so as `ConcreteDeveloper`s to hide implementation details from consumers of the factory.
+
+The `DeveloperFactoryTest` class tests the two factory methods by consuming the API through the `Developer` interface
+and ensuring that the resulting object is not `null.`
