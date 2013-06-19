@@ -5,6 +5,20 @@ JavaPatterns is the project in which I practice, and demonstrate, software desig
 
 It presently contains implementations of the following patterns:
 
+[Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+--------------------------------------------------------------------------
+
+The interface `Developer` defines a generic type of developer object, which is then implemented by the concrete
+`CSharpDeveloper` and `JavaDeveloper` classes.
+
+The interface `DeveloperFactory` defines a factory object returning a `Developer.` It is implemented concretely
+by the `CSharpDeveloperFactory` and `JavaDeveloperFactory` classes, which return the concrete `CSharpDeveloper`
+and `JavaDeveloper` objects, respectively, as `Developer`s.
+
+The `DeveloperFactoryTest` class tests that both `JavaDeveloperFactory` and `CSharpDeveloperFactory` return valid
+`DeveloperFactory` objects, and that the `newDeveloper()` method, declared in the `DeveloperFactory` interface,
+returns valid `Developer`s.
+
 [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
 ----------------------------------------------------------------------
 
