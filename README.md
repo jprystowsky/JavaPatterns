@@ -19,6 +19,22 @@ The `DeveloperFactoryTest` class tests that both `JavaDeveloperFactory` and `CSh
 `DeveloperFactory` objects, and that the `newDeveloper()` method, declared in the `DeveloperFactory` interface,
 returns valid `Developer`s.
 
+[Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
+--------------------------------------------------------
+
+The `CoffeeCup` object contains a `drink()` method which returns a `Coffee` object.
+
+The `Freezer` method expects a `CoffeeCup` object for its `freeze()` method, which returns a boolean (`true`).
+
+The `CoffeeCupAdapterImpl` class implements the `CoffeeCupAdapter` interface, which declares a `freezeCup()` method.
+This method takes a `CoffeeCup` object, on which it calls `drink()` to obtain a `Coffee` object. It passes the
+`Coffee` object into a new `Freezer` that it instantiates. Finally, it returns the value of calling the `Freezer`'s
+`freeze()` method on the `Coffee` object it obtained.
+
+The `CoffeeCupAdapterImplTest` class tests that these classes return valid values, and that the adapter's boolean
+return value matches the value obtained by performing the adapter pattern manually (i.e., calling `drink()` and
+instantiating and using an outside `Freezer`).
+
 [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
 ----------------------------------------------------------------------
 
