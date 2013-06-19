@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.abstractfactory;
+package io.mapping.javapatterns.creational.abstractfactory;
 
 /**
  * Declares a type of developer specializing in C#.

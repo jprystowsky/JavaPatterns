@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.adapter;
+package io.mapping.javapatterns.structural.adapter;
 
 import org.junit.Before;
 import org.junit.Test;

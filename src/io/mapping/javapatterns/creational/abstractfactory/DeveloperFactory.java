@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.abstractfactory;
+package io.mapping.javapatterns.creational.abstractfactory;
 
 
 public interface DeveloperFactory {

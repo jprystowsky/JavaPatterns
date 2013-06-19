@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.factorymethod;
+package io.mapping.javapatterns.creational.factorymethod;
 
 
 /**

@@ -1,4 +1,4 @@
-package io.mapping.javapatterns.abstractfactory;
+package io.mapping.javapatterns.creational.abstractfactory;
 
 /**
  * Provides a factory for constructing C# developers.
