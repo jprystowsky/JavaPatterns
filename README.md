@@ -1,7 +1,7 @@
 Motivation
 ==========
 
-JavaPatterns it the project in which I practice, and demonstrate, software design patterns, as implemented in Java.
+JavaPatterns is the project in which I practice, and demonstrate, software design patterns, as implemented in Java.
 
 It presently contains implementations of the following patterns:
 
