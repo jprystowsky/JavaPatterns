@@ -15,5 +15,5 @@ The `JavaDeveloper` and `SQLDeveloper` classes both extend `ConcreteDeveloper` a
 used by the factory.
 
 The `DeveloperFactory,` with a private constructor to prevent instantiation, contains two methods to return instances
-of `Developer`s, `newJavaDeveloper()` and `newSQLDeveloper.` These methods return instances of the above two internal
+of `Developer`s, `newJavaDeveloper()` and `newSQLDeveloper().` These methods return instances of the above two internal
 classes, respectively, but do so as `ConcreteDeveloper`s to hide implementation details from consumers of the factory.
