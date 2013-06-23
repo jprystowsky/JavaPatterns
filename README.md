@@ -5,11 +5,24 @@ JavaPatterns is the project in which I practice, and demonstrate, software desig
 
 It presently contains implementations of the following patterns:
 
+* [Behavioral](#behavioral)
+    * [Strategy](#strategy)
 * [Creational](#creational)
     * [Abstract Factory](#abstract-factory)
     * [Factory Method](#factory-method)
 * [Structural](#structural)
     * [Adapter](#adapter)
+
+Behavioral
+----------
+
+### [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
+
+The interface `Algorithm` with the `execute()` method is concretely implemented by the `SearchAlgorithm` and
+`TranslationAlgorithm` classes. The `Developer` object takes an `Algorithm` in its constructor, on which it then
+invokes the `execute()` method without needing to know the type of algorithm it is executing.
+
+The `DeveloperTest` class ensures the instantiation and types occur as expected.
 
 Creational
 ----------
